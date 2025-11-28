@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" maxSpeed="16.67" length="5" accel="2.6" decel="4.5"/>
+
+    <!-- 直行 -->
+    <flow id="ns" from="-176637362#0" to="35751584#0" begin="0" end="3600" probability="0.12"/>
+    <flow id="ew" from="-39687155#0" to="39687155#0" begin="0" end="3600" probability="0.10"/>
+    <flow id="sn" from="239999350#1" to="176637362#0" begin="0" end="3600" probability="0.11"/>
+
+    <!-- 左转 -->
+    <flow id="nw" from="-176637362#0" to="39687155#0" begin="0" end="3600" probability="0.04"/>
+    <flow id="en" from="-39687155#0" to="176637362#0" begin="0" end="3600" probability="0.03"/>
+    <flow id="se" from="239999350#1" to="39687155#0" begin="0" end="3600" probability="0.02"/>
+</routes>
